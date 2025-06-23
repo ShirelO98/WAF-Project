@@ -1,0 +1,64 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.bak/
+*.env
+
+# VSCode / PyCharm / IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Databases
+*.db
+*.sqlite3
+server/db/
+server/db/*.db
+
+# Machine learning models
+ml/model/
+ml/output_rules/
+
+# Datasets
+ml/data/
+*.csv
+*.tsv
+
+# Files uploaded by client
+client/uploads/
+*.exe
+*.php
+*.sh
+
+# Presentations and generated files
+docs/presentation.pdf
+*.pdf
+
+# Shell scripts (optional, if generated)
+*.sh
+*.bat
+
+# Node modules (in case added frontend JS libs)
+node_modules/
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Compiled files
+*.so
+*.out
