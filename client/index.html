@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Smart WAF - Client</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Smart WAF – Client</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
+  <div class="container">
     <h2>Contact Us</h2>
-    <form id="contact-form">
-        <label>Name</label>
-        <input type="text" name="name" required>
+    <form id="contact-form" enctype="multipart/form-data">
+      <label>Name</label>
+      <input type="text" name="name" required>
 
-        <label>Email</label>
-        <input type="email" name="email" required>
+      <label>Email</label>
+      <input type="email" name="email" required>
 
-        <label>Message</label>
-        <textarea name="message" rows="4" required></textarea>
+      <label>Message</label>
+      <textarea name="message" rows="4" required></textarea>
 
-        <button type="submit">Send</button>
+      <label>Attach a file</label>
+      <input type="file" name="file" id="file">
+
+      <button type="submit">Send</button>
     </form>
 
     <div class="log" id="log-box" style="display: none;">
-        <strong>Request Log:</strong>
-        <div id="log-content"></div>
+      <strong>Request Log:</strong>
+      <div id="log-content"></div>
     </div>
-</div>
-<script src="script.js"></script>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
