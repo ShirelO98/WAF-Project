@@ -3,7 +3,7 @@ import os
 
 DB_PATH = os.path.join(os.path.dirname(__file__), "../db/submissions.json")
 
-def save_submission(submission):  # קולט dict אחד
+def save_submission(submission):  
     try:
         if os.path.exists(DB_PATH):
             with open(DB_PATH, "r", encoding="utf-8") as f:

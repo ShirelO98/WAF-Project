@@ -1,5 +1,5 @@
 from flask import Blueprint, request
-from fake_db import save_submission  # שימי לב שהשמטנו את 'app.'
+from fake_db import save_submission
 import json
 
 app = Blueprint("routes", __name__)
