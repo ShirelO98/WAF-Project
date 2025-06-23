@@ -1,0 +1,11 @@
+{
+  "type": "extension",
+  "rules": [
+    ".php",
+    ".exe",
+    ".sh",
+    ".bat",
+    ".js",
+    ".py"
+  ]
+}

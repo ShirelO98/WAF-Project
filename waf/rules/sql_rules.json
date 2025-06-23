@@ -1,0 +1,13 @@
+{
+  "type": "regex",
+  "rules": [
+    "'\\s*or\\s*'1'='1",
+    "\"\\s*or\\s*\"1\"=\"1",
+    "union\\s+select",
+    "drop\\s+table",
+    "--", 
+    ";--", 
+    "' or 1=1 --",
+    "information_schema"
+  ]
+}

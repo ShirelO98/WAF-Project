@@ -1,0 +1,11 @@
+{
+  "type": "regex",
+  "rules": [
+    "<script.*?>",
+    "onerror\\s*=",
+    "onload\\s*=",
+    "javascript:",
+    "document\\.cookie",
+    "<img\\s+.*?on\\w+\\s*="
+  ]
+}
