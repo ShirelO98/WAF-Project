@@ -62,3 +62,6 @@ node_modules/
 # Compiled files
 *.so
 *.out
+
+# else files
+structure
