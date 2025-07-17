@@ -15,8 +15,7 @@ venv/
 .idea/
 
 # Logs
-*.log
-logs/
+waf/waf_logger/logs/waf_log.txt
 
 # OS
 .DS_Store
@@ -25,15 +24,11 @@ Thumbs.db
 # Databases
 *.db
 *.sqlite3
-server/db/
 server/db/*.db
+server/db/submissions.json
 
-# Machine learning models
-ml/model/
-ml/output_rules/
 
 # Datasets
-ml/data/
 *.csv
 *.tsv
 
